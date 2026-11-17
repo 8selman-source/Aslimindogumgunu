@@ -22,3 +22,11 @@ Mevcut siteyi herkese açık yayımlamadan önce kişisel fotoğraf ve metinleri
 - Gazete içerik değerleri değiştirilmedi; yalnızca gazete sayfa düzeni değiştirildi.
 - Vagon fotoğrafları `object-fit:contain` ile kırpılmadan görüntüleniyor.
 - Anı editörü content.json dışa aktarımını korur; GitHub’a yeniden yükleme kalıcılık için gereklidir.
+
+## Sıcak tasarım V2
+- Tren pencereleri büyütüldü; görseller `object-fit: contain` ile kırpılmadan gösterilir.
+- Beyaz kart yüzeylerine krem/pudra dokular, ince çerçeveler ve bölüm temaları eklendi.
+- Sürpriz Avı kutuları 6 farklı hediye temasına dönüştürüldü; dokununca açılıp tekrar kapanabilir.
+- Gazete metinlerine ve content.json içeriklerine dokunulmadı.
+- Makara, 7. vagon olarak korunmuştur.
+- Test kapsamı: JS syntax, JSON, yerel HTTP; gerçek iOS Safari/Render doğrulaması ayrıca gereklidir.

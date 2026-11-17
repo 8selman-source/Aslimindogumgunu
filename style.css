@@ -82,3 +82,59 @@ body{background:#352923}
 #hunt .hunt button:hover{transform:translateY(-3px) rotate(-1deg)}
 @media(max-width:640px){.paper-cols{grid-template-columns:1fr}.paper-cols>div,.paper-cols>div:first-child,.paper-cols>div:last-child{padding:12px 0;border-right:0;border-bottom:1px solid #a89479}.train-window{height:230px}.panel{overflow:hidden}#museum .tile img{max-height:300px}}
 @media(prefers-reduced-motion:reduce){.btn,.train-arrow,#museum .tile{transition:none!important}}
+
+
+/* ASLI / sıcak tasarım v2: özgün yüzeyler, fotoğrafın tamamı, hediye kutuları */
+:root{--ink:#48303a;--cream:#fcf9f3;--paper:#f3e5df;--gold:#b99a66;--olive:#7d7461;--border:rgba(85,40,59,.20)}
+body{background:#55283b}
+.panel{position:relative;background:linear-gradient(145deg,rgba(252,249,243,.97),rgba(243,229,223,.96));border:1px solid #d9bfa9;box-shadow:0 22px 52px #2c142a4a,inset 0 0 0 5px #fff7ee60;isolation:isolate}
+.panel:before{content:'✧';position:absolute;right:18px;top:12px;color:#b99a66;opacity:.55;font-size:1.5rem;pointer-events:none}
+.panel:after{content:'';position:absolute;inset:9px;border:1px solid #b99a6638;border-radius:17px;pointer-events:none;z-index:-1}
+.panel:nth-of-type(3n){background:linear-gradient(125deg,#f3e5dfef,#fcf9f3f8)}
+.panel:nth-of-type(4n){background:linear-gradient(155deg,#f9eddcf7,#f1e0d2f8)}
+.panel .eyebrow{color:#875467;letter-spacing:.24em}
+.panel h2{color:#55283b}
+.panel p{line-height:1.75}
+#train.panel{background:linear-gradient(160deg,#f5e3d5fa,#fcf9f3fa 65%,#ead9c4fa)}
+#train .train-intro:after{content:' ✦';color:#b99a66}
+.train-scroller{gap:20px;padding:18px 12px 38px;scroll-padding-inline:16px}
+.train-car{flex:0 0 clamp(280px,72vw,380px);min-height:460px;border:5px solid #77513d;border-bottom:11px solid #684333;background:linear-gradient(145deg,#fdf7eb,#ecd6bc);box-shadow:0 14px 26px #543b3260}
+.train-window{height:clamp(270px,38vw,355px);margin:13px 12px 0;padding:9px;display:grid;place-items:center;overflow:hidden;background:linear-gradient(140deg,#f0e2d0,#e4cdb3);border:5px solid #b99a66;border-radius:26px 26px 10px 10px;box-shadow:inset 0 0 0 2px #fff6e6}
+.train-window img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain!important;object-position:center!important;filter:none!important;border-radius:4px}
+.train-car-body{padding:14px 18px 19px}.train-car-body h3{color:#55283b}
+.train-car-makara{border-color:#a16a83;background:linear-gradient(145deg,#fff2ef,#f4dce3)}
+.train-car-makara .train-car-top{background:#864e67}
+.train-car-makara .train-window{border-color:#c98f9b}
+.locomotive{border-color:#b99a66;box-shadow:0 12px 30px #4c2c2980}
+#hunt.panel{background:radial-gradient(circle at 12% 14%,#fff9ec,#f4e3db 48%,#e8c9c8);text-align:center}
+#hunt>.eyebrow:before,#hunt>.eyebrow:after{content:' ✦ ';color:#b99a66}
+#hunt .hunt{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,205px),1fr));gap:20px;margin:24px 0 12px;align-items:stretch}
+#hunt .hunt .surprise-gift{--gift-bg:#eac6be;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;min-height:215px;padding:24px 14px 20px;overflow:hidden;background:linear-gradient(145deg,#fff8f1,var(--gift-bg));color:#55283b;border:2px solid #b99a66;border-radius:18px 18px 23px 23px;box-shadow:0 11px 0 #ad8d74,0 18px 25px #55283b2b,inset 0 0 0 5px #fff9f077;transition:transform .25s ease,box-shadow .25s ease;cursor:pointer;font-family:inherit}
+#hunt .hunt .gift-1{--gift-bg:#e5d6b9}#hunt .hunt .gift-2{--gift-bg:#e2bfc8}#hunt .hunt .gift-3{--gift-bg:#d6d4bf}#hunt .hunt .gift-4{--gift-bg:#e8d3b6}#hunt .hunt .gift-5{--gift-bg:#e7c8d1}
+#hunt .hunt .surprise-gift:before{content:'';position:absolute;inset:8px;border:1px dashed #a67b7180;border-radius:12px;pointer-events:none}
+#hunt .hunt .surprise-gift:after{content:'✦';position:absolute;right:16px;top:12px;color:#a47d5d;opacity:.65}
+#hunt .gift-decoration{display:block;font-size:3.4rem;line-height:1.15;filter:drop-shadow(0 5px 3px #543b3222);transition:transform .35s ease}
+#hunt .gift-number{font:700 .9rem 'DM Sans',sans-serif;letter-spacing:.14em;color:#55283b}
+#hunt .gift-ribbon{display:block;width:62px;height:2px;background:#b99a66}
+#hunt .gift-prompt{font:italic .85rem 'Playfair Display',serif;color:#79566a}
+#hunt .hunt .surprise-gift:hover{transform:translateY(-5px) rotate(-1deg);box-shadow:0 13px 0 #ad8d74,0 23px 30px #55283b33}
+#hunt .hunt .surprise-gift.open{background:linear-gradient(145deg,#fff9ed,#f1dfd7);box-shadow:0 4px 0 #ad8d74,0 10px 22px #55283b33;transform:translateY(6px)}
+#hunt .hunt .surprise-gift.open .gift-decoration{transform:rotate(-10deg) scale(1.13)}
+#hunt .hunt .surprise-gift .gift-reveal{display:flex;flex-direction:column;gap:8px;max-width:100%;margin:0;padding:12px 6px;border-top:1px solid #b99a6680;white-space:normal;overflow-wrap:anywhere}
+#hunt .hunt .surprise-gift .gift-reveal b{font:600 1.08rem 'Playfair Display',serif}
+#hunt .hunt .surprise-gift .gift-reveal small{font:400 .88rem/1.55 'DM Sans',sans-serif}
+#museum .tile{background:#fffdf6;border:8px solid #fffdf6;border-bottom-width:20px;box-shadow:0 9px 20px #55283b2b;border-radius:3px;transform:rotate(-1deg)}
+#museum .tile:nth-child(even){transform:rotate(1.3deg)}
+#museum .tile img{object-fit:contain;background:#f2e9de}
+#letter .letter-body{padding:clamp(18px,4vw,35px);background:repeating-linear-gradient(#fffaf4 0 36px,#dcc7c033 37px 38px);border-left:4px solid #c98f9b;box-shadow:0 9px 25px #55283b18}
+#invitation .options .option{background:linear-gradient(130deg,#fffaf3,#f0dfd7);border:1px solid #c6a58d;box-shadow:3px 3px 0 #d9c2b2}
+#capsule .capsule{background:linear-gradient(150deg,#ebd5b8,#f8ecd9);border:5px double #b99a66;box-shadow:inset 0 0 20px #8e623e22}
+#newspaper .paper{background:repeating-linear-gradient(0deg,#f3e7cf,#f3e7cf 26px,#efe1c8 27px);border:1px solid #8e7c61;box-shadow:0 14px 28px #37261b36}
+#newspaper .paper-head{border-bottom:5px double #6b5a46}
+#newspaper .paper-cols{gap:20px}
+#newspaper .paper-cols>div{border-top:1px solid #806d50}
+.btn{background:linear-gradient(140deg,#734057,#55283b);box-shadow:0 7px 15px #55283b35;border:1px solid #b99a6680}
+.btn:hover{background:linear-gradient(140deg,#8b536a,#55283b)}
+@media(max-width:640px){.panel{padding:26px 18px}.panel:after{inset:6px}.train-car{flex-basis:min(84vw,340px)}.train-window{height:300px;margin:10px 9px 0;padding:6px}.train-scroller{padding-inline:3px}#hunt .hunt{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}#hunt .hunt .surprise-gift{min-height:180px;padding:20px 8px 16px}#hunt .gift-decoration{font-size:2.5rem}#hunt .gift-number{font-size:.75rem}#hunt .gift-prompt{font-size:.76rem}}
+@media(max-width:360px){#hunt .hunt{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){#hunt .hunt .surprise-gift,#hunt .gift-decoration{transition:none!important}}
