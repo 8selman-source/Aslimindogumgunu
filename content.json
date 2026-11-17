@@ -5,7 +5,7 @@
     "age": 20,
     "luckyNumber": 17,
     "flower": "Lilyum",
-    "backgroundImage": "/uploads/1794847056188-48959feb951356e0.jpeg"
+    "backgroundImage": "background.jpg"
   },
   "sections": {
     "envelope": true,
@@ -59,42 +59,65 @@
     {
       "id": "vagon-1",
       "date": "12 Haziran",
-      "title": "İlk Tanışma",
-      "icon": "⛵",
-      "description": "Her şeyin başladığı o gün... Yatta yollarımızın kesiştiği ve hikâyemizin ilk satırının yazıldığı an.",
-      "image": "assets/photo-1.jpg"
+      "title": "İlk Tanışmamız",
+      "icon": "✦",
+      "significance": "12 Haziran — İlk tanışmamız",
+      "description": "Her şeyin başladığı gün.",
+      "image": "photo-1.jpg"
     },
     {
       "id": "vagon-2",
       "date": "12 Haziran",
       "title": "Sevgili Oluşumuz",
-      "icon": "💙",
-      "description": "Tanıştığımız günün hemen ertesi günü... Kalbimizin aynı yöne baktığını farkedip durumu uzatmadan resmileştirdiğimiz gün🫠",
-      "image": "assets/photo-2.jpg"
+      "icon": "✦",
+      "significance": "12 Haziran — Sevgili oluşumuz",
+      "description": "Hikâyemizin yeni bir anlam kazandığı gün.",
+      "image": "photo-2.jpg"
     },
     {
       "id": "vagon-3",
-      "date": "10 Ekim",
-      "title": "İlk Öpücüğümüz",
-      "icon": "🌸",
-      "description": "Zamanın durduğu, kelimelerin yerini kalp atışlarına bıraktığı o an…",
-      "image": ""
+      "date": "",
+      "title": "Bir Gün O Vitrinin Önünde",
+      "icon": "✦",
+      "significance": "Birlikte kurulan güzel bir hayal",
+      "description": "Bir gün hayalini kurduğun markanın vitrinine ailecek bakacağız.",
+      "image": "photo-3.jpg"
     },
     {
       "id": "vagon-4",
-      "date": "12 temmuz",
-      "title": "En Güzel Gülüşün",
-      "icon": "✨",
-      "description": "1. Ayımız… Şimdi baktığımda çok daha fazla şey hissediyorum. İnşAllah bunlar tozlu anı rafımızda kalmaz.",
-      "image": ""
+      "date": "",
+      "title": "Adalar Hatırası",
+      "icon": "✦",
+      "significance": "Adalar hatırası",
+      "description": "Birlikte geçirdiğimiz günlerden bir hatıra.",
+      "image": "photo-4.jpg"
     },
     {
       "id": "vagon-5",
       "date": "",
-      "title": "24 Haziran ",
-      "icon": "🇮🇹",
-      "description": "Benzersiz deneyimlerimden biri… Senle her anımı ölümsüzleştirmek istiyorum . O gün seni ilk defa elbiseyle görüşümdü🫠",
-      "image": ""
+      "title": "En Eğlendiğimiz Günlerden Biri",
+      "icon": "✦",
+      "significance": "En eğlendiğimiz günlerden biri",
+      "description": "Hatırladıkça yüzümüzü güldüren bir gün.",
+      "image": "photo-5.jpg"
+    },
+    {
+      "id": "vagon-6",
+      "date": "",
+      "title": "Üçüncü Ayımız",
+      "icon": "✦",
+      "significance": "Üçüncü ayımız",
+      "description": "Yüzündeki ışıltının hiçbir zaman sönmemesi dileğiyle.",
+      "image": "photo-6.jpg"
+    },
+    {
+      "id": "vagon-7",
+      "date": "",
+      "title": "Makara",
+      "icon": "✦",
+      "significance": "Makara",
+      "description": "Biraz da bizim eğlenceli hâllerimiz.",
+      "image": "photo-7.jpg"
     }
   ],
   "museum": [
@@ -105,7 +128,7 @@
         {
           "title": "Gelecek Hayalleri",
           "caption": "Bir gün hayalini kurduğun markanın vitrinine ailecek bakacağız.",
-          "image": "assets/photo-3.jpg"
+          "image": "photo-3.jpg"
         }
       ]
     },
@@ -116,7 +139,7 @@
         {
           "title": "Adalar Hatırası",
           "caption": "Adalar hatırası",
-          "image": "assets/photo-4.jpg"
+          "image": "photo-4.jpg"
         }
       ]
     },
@@ -127,7 +150,7 @@
         {
           "title": "En Eğlendiğimiz Günlerden Biri",
           "caption": "En eğlendiğimiz günlerden biri",
-          "image": "assets/photo-5.jpg"
+          "image": "photo-5.jpg"
         }
       ]
     },
@@ -138,7 +161,7 @@
         {
           "title": "3. Ayımız",
           "caption": "Yüzündeki ışıltının hiçbir zaman sönmemesi dileğiyle.",
-          "image": "assets/photo-6.jpg"
+          "image": "photo-6.jpg"
         }
       ]
     }
@@ -260,7 +283,7 @@
     ]
   },
   "extras": {
-    "funnyImage": "assets/photo-7.jpg",
-    "background": "assets/background.jpg"
+    "funnyImage": "photo-7.jpg",
+    "background": "background.jpg"
   }
 }
