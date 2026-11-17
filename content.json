@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "siteTitle": "ASLI — 20. Yaş Günü 🎈 ",
+    "birthdayDate": "2026-11-17",
+    "age": 20,
+    "luckyNumber": 17,
+    "flower": "Lilyum",
+    "backgroundImage": "/uploads/1794847056188-48959feb951356e0.jpeg"
+  },
+  "sections": {
+    "envelope": true,
+    "curtains": true,
+    "cake": true,
+    "newspaper": true,
+    "train": true,
+    "museum": true,
+    "capsule": true,
+    "film": true,
+    "letter": true,
+    "invitation": true,
+    "hunt": true,
+    "final": true
+  },
+  "envelope": {
+    "sealText": "Güzelime",
+    "subtitle": "17 Kasım · 20. Yaş Günü",
+    "cardTitle": "Yavrumm, Bebeğimm, Birtanemm…",
+    "cardMessage": "Bir damla istedim bana okyanus oldun \nHer anıma renk , ömrüme mana oldun  \nYıllarca mutluluğu farklı yerde aramışım bana gülüşün yetti…\nFani dünyada, ani bir aşk verdin…\n",
+    "buttonText": "Perde Açılsın"
+  },
+  "grandOpening": {
+    "headline": "İyi ki doğdun Aslımm, yeni yaşın dilediğin gibi geçsin",
+    "subheadline": "Yeni Yaş ,Yeni Deneyimler ,Yeni Hedefler Ve Güzel anılar🤎",
+    "welcomeNote": "Uğurlu sayın 17'nin bütün şansı, neşesi ve güzelliği bu yeni yaşında seninle olsuunn."
+  },
+  "cake": {
+    "title": " Dileğini Tut Findukk",
+    "instruction": "Gözlerini kapat, dileğini tut ve mumları söndürmek için pastaya dokun...",
+    "afterWishTitle": "Dileğin Gerçek Olsun Güzelimm!",
+    "afterWishMessage": "Yeni yaşında dilediğin yerlerde ,dilediğin başarılarla, dilediğin insanlarla olman dileğiyle sevgilim.. İyi Ki doğdun İyi ki İyiliksin🤎🫠"
+  },
+  "newspaper": {
+    "paperName": "THE ASLI TIMES",
+    "issueInfo": "BU HEDİYELERİN KARŞILIĞI  BİR GÜLÜMSEME",
+    "mainHeadline": "Güneşin Doğuşunun 20. Yılı",
+    "mainSubheadline": "BUGÜN HERKESİN BEKLEDİĞİ O GÜN 17 KASIM!!",
+    "leadPhoto": "",
+    "leadPhotoCaption": "ÜNLÜ ÇİFTTEN ŞOKE EDİCİ GÖRÜNTÜLER!!!",
+    "newsOfDayTitle": "BUGÜN YER YERİNDEN SALLANACAK!!! ",
+    "newsOfDayBody": "Tüm dünya bugün 17 Kasım çoşkusuyla uyandı! Güzellik algılarını değiştiren ve tüm bebeklere tatlılıyla taş çıkartan ASLI SIDAR ın doğum günü!!",
+    "columnTitle": "Tatlılıyla ve güzelliğiyle anılan Aslı hanıma bir de GERGİN! Dendi",
+    "columnBody": "Bunu duyan kocası YEMRE bey “ karım Karadeniz’in sadece doğa güzelliğini aldı ama bu şekilde magazincilik yaparsanız sizi geldiğiniz yere geri sokarım” dedi🙉",
+    "futureTitle": "Gelecekten Haberler: Aslı Sıdar hayallerine teker teker ulaşıyor!!!",
+    "futureBody": "Hayalini kurduğu yurt dışı ve kuracağı markasına bir adım daha yakın! ",
+    "classifiedsTitle": "Küçük İlanlar & Özel Notlar",
+    "classifieds": []
+  },
+  "train": [
+    {
+      "id": "vagon-1",
+      "date": "12 Haziran",
+      "title": "İlk Tanışma",
+      "icon": "⛵",
+      "description": "Her şeyin başladığı o gün... Yatta yollarımızın kesiştiği ve hikâyemizin ilk satırının yazıldığı an.",
+      "image": "assets/photo-1.jpg"
+    },
+    {
+      "id": "vagon-2",
+      "date": "12 Haziran",
+      "title": "Sevgili Oluşumuz",
+      "icon": "💙",
+      "description": "Tanıştığımız günün hemen ertesi günü... Kalbimizin aynı yöne baktığını farkedip durumu uzatmadan resmileştirdiğimiz gün🫠",
+      "image": "assets/photo-2.jpg"
+    },
+    {
+      "id": "vagon-3",
+      "date": "10 Ekim",
+      "title": "İlk Öpücüğümüz",
+      "icon": "🌸",
+      "description": "Zamanın durduğu, kelimelerin yerini kalp atışlarına bıraktığı o an…",
+      "image": ""
+    },
+    {
+      "id": "vagon-4",
+      "date": "12 temmuz",
+      "title": "En Güzel Gülüşün",
+      "icon": "✨",
+      "description": "1. Ayımız… Şimdi baktığımda çok daha fazla şey hissediyorum. İnşAllah bunlar tozlu anı rafımızda kalmaz.",
+      "image": ""
+    },
+    {
+      "id": "vagon-5",
+      "date": "",
+      "title": "24 Haziran ",
+      "icon": "🇮🇹",
+      "description": "Benzersiz deneyimlerimden biri… Senle her anımı ölümsüzleştirmek istiyorum . O gün seni ilk defa elbiseyle görüşümdü🫠",
+      "image": ""
+    }
+  ],
+  "museum": [
+    {
+      "roomName": "Gelecek Hayalleri",
+      "style": "album",
+      "items": [
+        {
+          "title": "Gelecek Hayalleri",
+          "caption": "Bir gün hayalini kurduğun markanın vitrinine ailecek bakacağız.",
+          "image": "assets/photo-3.jpg"
+        }
+      ]
+    },
+    {
+      "roomName": "Adalar Hatırası",
+      "style": "polaroid",
+      "items": [
+        {
+          "title": "Adalar Hatırası",
+          "caption": "Adalar hatırası",
+          "image": "assets/photo-4.jpg"
+        }
+      ]
+    },
+    {
+      "roomName": "Komik Anlar",
+      "style": "film",
+      "items": [
+        {
+          "title": "En Eğlendiğimiz Günlerden Biri",
+          "caption": "En eğlendiğimiz günlerden biri",
+          "image": "assets/photo-5.jpg"
+        }
+      ]
+    },
+    {
+      "roomName": "En Güzel Kareler",
+      "style": "frame",
+      "items": [
+        {
+          "title": "3. Ayımız",
+          "caption": "Yüzündeki ışıltının hiçbir zaman sönmemesi dileğiyle.",
+          "image": "assets/photo-6.jpg"
+        }
+      ]
+    }
+  ],
+  "timeCapsule": {
+    "unlockDateISO": "2027-11-17T00:00:00+03:00",
+    "title": "17 Kasım 2027 Zaman Kapsülü",
+    "lockedHint": "Bu kapsül tam 1 yıl sonra, 21. yaş gününde (17 Kasım 2027, 00:00) otomatik olarak açılacak.",
+    "letterTitle": "Gelecekteki Aslı'ya Not",
+    "letterBody": "Bilmiyorum birliktemiyiz ama seni hala sevdiğimi bilmeni istiyorum. İnşAllah hayallerine yaklaşıp gerçekleştirmişsindir . İyi ki doğdun sevgilim🤎",
+    "futureQuestion": "Geçen 1 yılda hayallerine ne kadar yakalaşabildin ya da kaçını yapabildin?",
+    "futureWish": "21. yaşında da gözlerin hep bugünkü gibi parlasın yavrumm.",
+    "image": ""
+  },
+  "film": {
+    "title": "",
+    "subtitle": "",
+    "videoUrl": "",
+    "aspectRatio": "16:9",
+    "chapters": [
+      "1. Açılış",
+      "2. 12 Haziran & İlk Günler",
+      "3. Güzel Anılarımız",
+      "4. En Eğlenceli Anlar",
+      "5. Gelecek Hayallerimiz",
+      "6. 20. Yaş Finali"
+    ]
+  },
+  "letter": {
+    "title": "Yavrumm, İyi ki Varsın",
+    "salutation": "Canım Sevgilim, Güzelimm Benim.",
+    "paragraphs": [
+      "Hep böyle mi bakar gözlerin \nsessiz bir şarkının sözleri gibi \nHep böyle misin aklım almıyor \nnasıl anlatsam bilemiyorum 29 harfe sığmıyorsun neden seviyorum neden aşığım bende bilmiyorum \nAma bugün yıldızlara seni anlattım her birine sevdamdan bir parça bıraktım artık her gökyüzüne baktığımda seni görüyorum bundan güzeli mi var , senden güzeli mi var…  \nBen güneş batıyor sanıyordum meğersem aralara mesafe giriyormuş\nSenin olmak istiyorum senden bir parça olmak istiyorum göz yaşın gibi kalbinden gelip,gözlerinde doğup,yanaklarında yaşayıp, dudaklarında bitmek istiyorum"
+    ],
+    "signature": "Seni Çok Seven Sevgilin"
+  },
+  "invitation": {
+    "eventTitle": "Aslı'nın 20. Yaş Günü Kutlaması",
+    "dateText": "17 Kasım",
+    "timeText": "Saat 16:00 civarı",
+    "weatherText": "Parçalı bulutlu, 17 derece",
+    "specialNote": "Güzelimm, buluşma konseptini aşağıdan sen seç; hazırlığını da seçtiğin plana göre yapabilirsin.",
+    "options": [
+      {
+        "id": "pizza-date",
+        "title": "Arabada gün batımı eşliğinde pizza date",
+        "subtitle": "Manzara, sıcak pizza, müziklerimiz ve baş başa gün batımı",
+        "icon": "🍕"
+      },
+      {
+        "id": "restaurant",
+        "title": "Rezervasyon yaptırdığımız restorant",
+        "subtitle": "Şık bir akşam yemeği ve 20. yaş kutlaması",
+        "icon": "🥂"
+      }
+    ],
+    "selectedOptionId": "",
+    "selectedAt": ""
+  },
+  "hunt": {
+    "title": "17 Şanslı Sürpriz Avı",
+    "subtitle": "9 kutucuğun arkasındaki küçük notları ve sürprizleri keşfet",
+    "boxes": [
+      {
+        "title": "Uğurlu Sayı",
+        "content": "17 Kasım, 17 derece ve uğurlu sayın 17... Bugün her şey senin şansınla güzel!"
+      },
+      {
+        "title": "12 Haziran",
+        "content": "Yatta tanıştığımız ve ertesi gün sevgili olduğumuz o unutulmaz başlangıç."
+      },
+      {
+        "title": "10 Ekim",
+        "content": "İlk öpücüğümüzün tarihi  hep en özel yerimde"
+      },
+      {
+        "title": "İtalya Hayali",
+        "content": "Bir gün İtalya'nın en güzel sokağında kendi ayakkabı markanın vitrinine birlikte bakacağız."
+      },
+      {
+        "title": "Karadeniz Rüzgârı",
+        "content": "Sinirlenince bile dünyanın en tatlı insanı olmayı nasıl başarıyorsun 😅"
+      },
+      {
+        "title": "İç Şakamız",
+        "content": "Ortak mizah anlayışımızın olması aynı anda aynı şakaya gülebilmemiz gerçek bi zenginlik🫠"
+      },
+      {
+        "title": "Lilyum",
+        "content": "En sevdiğin çiçek gibi zarif, ince düşünceli ve özelsin."
+      },
+      {
+        "title": "Müziklerimiz",
+        "content": "Senin için Motive - Yin Yang, benim için Kıraç - Endamın Yeter!"
+      },
+      {
+        "title": "Büyük Sürpriz",
+        "content": "Saat 16:00'daki kutlamamız için davetiyeden seçimini yapmayı unutma güzelimm!"
+      }
+    ]
+  },
+  "finalScene": {
+    "title": "İyi ki Doğdun Aslımm",
+    "message": "Seni seviyorum demek istiyorum \nGözlerinde bir daha yolu bulmamak üzere kaybolmak istiyorum \nYanlız rüyalarımın değil hayatımın baş kahramanı ol istiyorum \nOlmak istediğim tek bir yer duymak istediğim tek bir ses hep sevmek istediğim tek bir kişi; sen…🤎",
+    "collageImages": []
+  },
+  "music": {
+    "tracks": [
+      {
+        "id": "track-1",
+        "title": "Motive — Yin Yang (Aslı'nın Favorisi)",
+        "url": ""
+      },
+      {
+        "id": "track-2",
+        "title": "Kıraç — Endamın Yeter",
+        "url": ""
+      }
+    ]
+  },
+  "extras": {
+    "funnyImage": "assets/photo-7.jpg",
+    "background": "assets/background.jpg"
+  }
+}
