@@ -5,7 +5,7 @@
     "age": 20,
     "luckyNumber": 17,
     "flower": "Lilyum",
-    "backgroundImage": "/uploads/1794847056188-48959feb951356e0.jpeg"
+    "backgroundImage": "background.jpg"
   },
   "sections": {
     "envelope": true,
@@ -62,7 +62,7 @@
       "title": "İlk Tanışma",
       "icon": "⛵",
       "description": "Her şeyin başladığı o gün... Yatta yollarımızın kesiştiği ve hikâyemizin ilk satırının yazıldığı an.",
-      "image": "assets/photo-1.jpg"
+      "image": "photo-1.jpg"
     },
     {
       "id": "vagon-2",
@@ -70,7 +70,7 @@
       "title": "Sevgili Oluşumuz",
       "icon": "💙",
       "description": "Tanıştığımız günün hemen ertesi günü... Kalbimizin aynı yöne baktığını farkedip durumu uzatmadan resmileştirdiğimiz gün🫠",
-      "image": "assets/photo-2.jpg"
+      "image": "photo-2.jpg"
     },
     {
       "id": "vagon-3",
@@ -105,7 +105,7 @@
         {
           "title": "Gelecek Hayalleri",
           "caption": "Bir gün hayalini kurduğun markanın vitrinine ailecek bakacağız.",
-          "image": "assets/photo-3.jpg"
+          "image": "photo-3.jpg"
         }
       ]
     },
@@ -116,7 +116,7 @@
         {
           "title": "Adalar Hatırası",
           "caption": "Adalar hatırası",
-          "image": "assets/photo-4.jpg"
+          "image": "photo-4.jpg"
         }
       ]
     },
@@ -127,7 +127,7 @@
         {
           "title": "En Eğlendiğimiz Günlerden Biri",
           "caption": "En eğlendiğimiz günlerden biri",
-          "image": "assets/photo-5.jpg"
+          "image": "photo-5.jpg"
         }
       ]
     },
@@ -138,7 +138,7 @@
         {
           "title": "3. Ayımız",
           "caption": "Yüzündeki ışıltının hiçbir zaman sönmemesi dileğiyle.",
-          "image": "assets/photo-6.jpg"
+          "image": "photo-6.jpg"
         }
       ]
     }
@@ -260,7 +260,7 @@
     ]
   },
   "extras": {
-    "funnyImage": "assets/photo-7.jpg",
-    "background": "assets/background.jpg"
+    "funnyImage": "photo-7.jpg",
+    "background": "background.jpg"
   }
 }
